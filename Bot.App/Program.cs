@@ -1,22 +1,18 @@
-﻿using Serilog;
-using Simple.BotUtils.DI;
-using System;
-using System.Threading;
+﻿using Bot.App;
 using Serilog;
-using Serilog.Events;
 using Simple.BotUtils.Controllers;
 using Simple.BotUtils.Data;
 using Simple.BotUtils.DI;
 using Simple.BotUtils.Jobs;
 using Simple.BotUtils.Startup;
 using Simple.Sqlite;
+using System;
+using System.IO;
+using System.Reflection;
+using System.Threading;
 using Telegram.Bot;
 using Telegram.Bot.Extensions.Polling;
-using Bot.App;
-using System.IO;
-using Simple.API;
-using System.Reflection;
-using System.Runtime.CompilerServices;
+
 
 Console.WriteLine("Hello, World!");
 
