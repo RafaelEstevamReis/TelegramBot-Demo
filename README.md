@@ -6,6 +6,6 @@ A simple C# Telegram Bot framework to demonstrate how to make a simple Telegram 
 
 * .Net Telegram BOT Api: [![package](https://img.shields.io/nuget/vpre/Telegram.Bot.svg?label=Telegram.Bot&style=flat-square)](https://github.com/TelegramBots/Telegram.Bot)
 * Simple.BotUtils: [![NuGet](https://buildstats.info/nuget/Simple.BotUtils)](https://github.com/RafaelEstevamReis/Simple.BotUtils)
-* Simple.API: [![NuGet](https://buildstats.info/nuget/Simple.API)](https://github.com/RafaelEstevamReis/Simple.API)
 * Simple.Sqlite: [![NuGet](https://buildstats.info/nuget/Simple.Sqlite)](https://github.com/RafaelEstevamReis/SimpleSqlite)
+* Simple.API: [![NuGet](https://buildstats.info/nuget/Simple.API)](https://github.com/RafaelEstevamReis/Simple.API)
 
