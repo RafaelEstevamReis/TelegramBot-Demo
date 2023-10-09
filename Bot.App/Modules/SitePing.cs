@@ -15,7 +15,7 @@ using Telegram.Bot;
 /// </summary>
 internal class SitePing : IJob
 {
-    private readonly ITelegramBotClient bot;
+    private readonly TelegramBotClient bot;
     private readonly ILogger log;
     private readonly ConnectionFactory db;
     private readonly ClientInfo client;
@@ -28,7 +28,7 @@ internal class SitePing : IJob
     public SitePing()
     {
         client = new ClientInfo("https://quotes.toscrape.com/");
-        bot = Injector.Get<ITelegramBotClient>();
+        bot = Injector.Get<TelegramBotClient>();
         log = Injector.Get<ILogger>();
         db = Injector.Get<ConnectionFactory>();
 
